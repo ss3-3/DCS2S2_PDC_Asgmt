@@ -18,7 +18,7 @@ A comprehensive C++ benchmarking tool that compares two popular matrix inversion
 
 ---
 
-## 🎯 Overview
+## Overview
 
 This program benchmarks matrix inversion using two algorithms:
 
