@@ -4,7 +4,7 @@ A comprehensive C++ benchmarking tool that compares two popular matrix inversion
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -33,7 +33,7 @@ The program measures execution time, speedup, and parallel efficiency for matric
 
 ---
 
-## ✨ Features
+## Features
 
 - **Two Dataset Modes:**
   - **Static Dataset** - Test with your own predefined matrix
@@ -59,7 +59,7 @@ The program measures execution time, speedup, and parallel efficiency for matric
 
 ---
 
-## 🔧 Requirements
+## Requirements
 
 ### Software Requirements
 - **C++ Compiler** with C++11 support or higher
@@ -105,7 +105,7 @@ cl /EHsc /openmp /O2 /std:c++14 matrix_inversion.cpp /Fe:matrix_benchmark.exe
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### Running the Program
 ```bash
@@ -196,7 +196,7 @@ cl /EHsc /openmp /O2 /std:c++14 matrix_inversion.cpp /Fe:matrix_benchmark.exe
 
 ---
 
-## 🔨 Customization
+## Customization
 
 ### Changing the Static Dataset
 
@@ -229,7 +229,7 @@ double static_data[N_STATIC][N_STATIC] = {
 
 ---
 
-## 📈 Performance Metrics
+## Performance Metrics
 
 ### Output Example
 ```
@@ -268,7 +268,7 @@ Efficiency = (Speedup / Number of Threads) × 100%
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Issue: "Matrix is singular"
 **Cause:** Determinant is zero or very close to zero  
@@ -333,7 +333,7 @@ brew install libomp
 
 ---
 
-## 📝 Expected Performance
+## Expected Performance
 
 ### Typical Execution Times (8-core CPU, 3.0 GHz)
 
@@ -349,7 +349,7 @@ brew install libomp
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 ### Adding New Algorithms
 1. Implement serial version
@@ -365,13 +365,13 @@ brew install libomp
 
 ---
 
-## 📜 License
+## License
 
 This code is provided for educational purposes. Feel free to modify and distribute.
 
 ---
 
-## 👨‍💻 Author Notes
+## Author Notes
 
 **For Students/Researchers:**
 - This code is designed for learning parallel programming concepts
@@ -387,7 +387,7 @@ This code is provided for educational purposes. Feel free to modify and distribu
 
 ---
 
-## 📚 Further Reading
+## Further Reading
 
 - [OpenMP Official Documentation](https://www.openmp.org/)
 - [Matrix Inversion Algorithms](https://en.wikipedia.org/wiki/Invertible_matrix#Methods_of_matrix_inversion)
